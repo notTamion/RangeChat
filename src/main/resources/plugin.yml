@@ -1,0 +1,8 @@
+name: RangeChat
+version: '${project.version}'
+main: de.tamion.RangeChat
+authors: [Tamion]
+description: Makes your messages only visible to Players in range
+
+commands:
+  setchatrange:
