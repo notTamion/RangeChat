@@ -1,6 +1,7 @@
 package de.tamion;
 
 import de.tamion.commands.IgnoreHeight;
+import de.tamion.commands.RequireLineOfSight;
 import de.tamion.commands.SetChatRange;
 import de.tamion.listeners.ChatListener;
 import org.bukkit.Bukkit;
@@ -19,6 +20,7 @@ public final class RangeChat extends JavaPlugin {
 
         getCommand("setchatrange").setExecutor(new SetChatRange());
         getCommand("ignoreheight").setExecutor(new IgnoreHeight());
+        getCommand("requirelineofsight").setExecutor(new RequireLineOfSight());
     }
 
     public static RangeChat getPlugin() {
